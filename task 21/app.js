@@ -1,7 +1,6 @@
-"use strict";
-let book = {
-    title: "THE HOBBIT",
-    author: "J,R,R.TOLKIEN",
-    yearpublished: 1937,
+var I_T_student = {
+    studentName: "samreensami",
+    location: "Governorhouse",
+    I_D_Number: "00442750"
 };
-console.log(`book info:${book.title} by ${book.author},published in ${book.yearpublished}`);
+console.log(I_T_student);

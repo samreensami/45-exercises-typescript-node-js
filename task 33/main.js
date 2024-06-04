@@ -1,18 +1,19 @@
-"use strict";
-let my_numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+var numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 // for loop
-for (let i = 0; i < my_numbers.length; i++) {
-    // we use condition
-    if (my_numbers[i] == 1) {
-        console.log(`${my_numbers[i]}st`);
+for (var _i = 0, numbers_1 = numbers; _i < numbers_1.length; _i++) {
+    var onenumber = numbers_1[_i];
+    var ordinalending = void 0;
+    if (onenumber === 1) {
+        ordinalending = "1st";
     }
-    else if (my_numbers[i] == 2) {
-        console.log(`${my_numbers[i]}nd`);
+    else if (onenumber === 2) {
+        ordinalending = "nd";
     }
-    else if (my_numbers[i] == 3) {
-        console.log(`${my_numbers[i]}rd`);
+    else if (onenumber === 3) {
+        ordinalending = "3rd";
     }
-    else if (my_numbers[i] >= 4 && my_numbers[i] <= 9) {
-        console.log(`${my_numbers[i]}th`);
+    else {
+        ordinalending = "th";
     }
+    console.log("".concat(onenumber).concat(ordinalending));
 }

@@ -1,2 +1,2 @@
-let guest:string[]=["sam","sami","safdar","ali"];
-console.log(`i m inviting"${guest.length}people to dinner.`);
+let guestlist=["sam","sami","safdar","ali"];
+console.log(`i m inviting"${guestlist.length}people to dinner.`);

@@ -14,22 +14,8 @@ guestlist.splice(middleindex,0,"a.r ansari");
 
 console.log("update list of guest");
 guestlist.forEach(oneguest=>console.log(`assalamo alaikum\n${oneguest}\n,\nwould u like to dinner with me\n`));
-console.log("unfortunatly,the new dinner table cant arrive on time,so i will invite only two person for dinner with me");
-// while loop function repeat again & again until specific condition,pop function remove value from last
-while(guestlist.length>2){
-    let removedguest = guestlist.pop();
-    console.log(`sorry,\n${removedguest}\ni cant invite you on dinner`);
-}console.log("invitation to the last two guest");
-guestlist.forEach(lasttwo =>console.log(`luckey person are${lasttwo}\nyou are still invited to dinner`));
-// remove left over two guest from array
-guestlist.pop();
-guestlist.pop();
-console.log("empty list" ,guestlist);
 
 
 
 
 
-
-
-    

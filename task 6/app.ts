@@ -1,3 +1,6 @@
+
+//  using .trim to remove wide space(striping)
+
 let whitespaceName = "\t\n SAMREEN SAMI\t\n";
 
 console.log(whitespaceName);

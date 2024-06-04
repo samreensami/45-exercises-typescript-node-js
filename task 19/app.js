@@ -1,3 +1,2 @@
-"use strict";
-let guest = ["sam", "sami", "safdar", "ali"];
-console.log(`i m inviting"${guest.length}people to dinner.`);
+var guestlist = ["sam", "sami", "safdar", "ali"];
+console.log("i m inviting\"".concat(guestlist.length, "people to dinner."));

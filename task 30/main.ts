@@ -1,11 +1,10 @@
-let users :string[] = ["sam","sami","safdar","ali","hina","admin"]
+let usersName = ["sam","sami","safdar","hina","admin"];
 
-for(let user of users){
-if(user === "admin"){
-    console.log("hello admin,would you like to see a status report?")
-   }
+usersName.forEach(user=>{
+    if (user ==="admin"){
+        console.log(`Hello ${user}, \nwould you like to see a status report \n`);
 
-else{
-    console.log(`hello${users},thank you for logging in again.`)
-}
-}
+    }else{
+        console.log(`Hello ${user},\nthank you fpr login again\n`);
+    }
+})

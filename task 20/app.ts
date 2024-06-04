@@ -1,3 +1,5 @@
 let countries=["Japan", "Caneda" ,"Newziland","Switzerland"];
 
-console.log("countries idnt like to visit:" ,countries);
+console.log("countries i dnt like to visit:");
+
+countries.forEach(country=>console.log(country));

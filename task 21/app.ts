@@ -1,10 +1,12 @@
-let book: { title: string; 
-            author: string; 
-            yearpublished: number } = {
-  title: "THE HOBBIT",
-  author: "J,R,R.TOLKIEN",
-  yearpublished: 1937,
-};
-console.log(`book info:${book.title} by ${book.author},published in ${book.yearpublished}`
-);
+interface  I_T_student{
+  studentName : string;
+  location : string;
+  I_D_Number : number;
+}
 
+let I_T_student = {
+  studentName : "samreensami",
+  location : "Governorhouse",
+  I_D_Number : "00442750"
+};
+console.log(I_T_student);

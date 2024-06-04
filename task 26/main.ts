@@ -1,4 +1,4 @@
-let alien_color:string = "green";
+let alien_color = "green";
 
 if ( alien_color == "green"){
     

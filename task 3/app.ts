@@ -1,4 +1,4 @@
-// exercise 3 name casses
+// exercise 3 name casses with regular experation
 
 let personName = "samreen sami";
 
@@ -9,5 +9,5 @@ console.log (personName.toUpperCase());
 //lowercase
 console.log(personName.toLowerCase());
 
-//Tittle case
+//Tittle case + we will use billton function
 console.log(personName.replace(/\b\w/g, (char)=>char.toUpperCase()));

@@ -5,4 +5,4 @@
        console.log(magician));
  }
 
- show_magician1(magician);
+ show_magician1(magician); 

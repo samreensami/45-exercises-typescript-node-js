@@ -1,6 +1,6 @@
 // verson 1
 let alien_color1 = "green";
-if( alien_color1== "green"){
+if( alien_color1=== "green"){
     console.log("ver 1 ,you shoot down green alien you have earn 5 point");
 
 }
